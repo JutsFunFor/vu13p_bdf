@@ -4,6 +4,7 @@ import sys
 from typing import List
 from xdc import parse_xdc # type: ignore
 
+print("ABC")
 COMPANY_NAME = "Quant99"
 # override company name with environment variable
 if "COMPANY_NAME" in os.environ:
